@@ -39,4 +39,4 @@ def verify(name, model_define_path, input_path, save_path, batch_size, channel, 
 
 
 if __name__ == '__main__':
-    verify('resnet', '/home/rex/桌面/P2C_GUI/resnet.pth', '/home/rex/桌面/P2C_GUI/', 1, 3, 224, 224)
+    verify('resnet', 'resnet.py', 'resnet.pth', '/home/rex/桌面/P2C_GUI/', 1, 3, 224, 224)
