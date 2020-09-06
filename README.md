@@ -3,6 +3,12 @@
 
 ## Description:
 - A conversion tool that can be used in linux environment to convert pytorch model to caffe model
+- functions:
+    - Can convert PyTorch model to caffe model correctly and without loss of accuracy
+    - Provide basic caffe verification function, able to verify the converted model
+    - Able to give pop-up error reminders for currently incompatible layers
+    - You can choose the path of the pytorch model and the save path of the converted caffe model
+    
 - Supported Version:(Note that other versions have not been tested yet. You can try it out for yourself!)
     - PyTorch -v1.4.0
     - caffe - v1.0.0  https://github.com/BVLC/caffe
@@ -19,7 +25,7 @@
     - dropout
     - softmax
     
-- Supported Operations: view(flatten), common torch operations.
+- Supported Operations: view(flatten), cat and other common torch operations.
  
 
 ## How to use it:
