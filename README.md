@@ -41,7 +41,20 @@
 ## Example:
 ### Convert darknet53:
 before conversion:
-![](imgs/before.png)
+<div>
+<img src="imgs/before.PNG" width="500" height="300" align="middle" />
+</div>
+
+after conversion:
+<div>
+<img src="imgs/after.PNG" width="500" height="300" align="middle" />
+</div>
+
+visualize the caffe model(using http://ethereon.github.io/netscope/#/editor)
+
+<div>
+<img src="imgs/Screenshot.png" width="500" height="300" align="middle" />
+</div>
 
 ### Other tested model: 
 - alexnet
