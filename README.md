@@ -3,7 +3,7 @@
 
 ## Description:
 - A conversion tool that can be used in linux environment to convert pytorch model to caffe model
-- functions:
+- Features:
     - Can convert PyTorch model to caffe model correctly and without loss of accuracy
     - Provide basic caffe verification function, able to verify the converted model
     - Able to give pop-up error reminders for currently incompatible layers
