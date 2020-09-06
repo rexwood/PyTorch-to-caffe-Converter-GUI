@@ -49,5 +49,5 @@ def convert(model_define_path, pth_path, save_path, batch_size, channel, height,
 
 
 if __name__ == '__main__':
-    convert('/home/rex/桌面/darknet53.pth', '', 1, 3,
+    convert('darknet53.pth', '', 1, 3,
             224, 224)
