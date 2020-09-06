@@ -40,6 +40,8 @@
 
 ## Example:
 ### Convert darknet53:
+before conversion:
+![](imgs/before.png)
 
 ### Other tested model: 
 - alexnet
